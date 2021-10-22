@@ -1,5 +1,8 @@
 FROM python:3.9-alpine3.14
 
+LABEL org.opencontainers.image.authors="heman.1682@gmail.com"
+LABEL version="0.1"
+
 ENV PYTHONUNBUFFERED 1
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 
@@ -12,4 +15,4 @@ RUN    apk add --update --no-cache --virtual .tmp-deps \
         build-base postgresql-dev musl-dev linux-headers libffi-dev libjpeg zlib-dev jpeg-dev gcc musl-dev libxslt libxml2
 
 
-RUN apk del .tmp-deps &&
+RUN apk del .tmp-deps 
