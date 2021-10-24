@@ -19,4 +19,4 @@ RUN    apk add --update --no-cache --virtual .tmp-deps \
         build-base postgresql-dev musl-dev linux-headers libffi-dev libjpeg zlib-dev jpeg-dev gcc musl-dev libxslt libxml2
 
 
-RUN /py/bin/pip install -r /common-requirements.txt && apk del .tmp-deps 
+RUN /py/bin/pip install -r /common-requirements.txt
