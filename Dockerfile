@@ -1,4 +1,4 @@
-FROM python:3.9.9-alpine3.14
+FROM python:3.10.4-alpine3.14
 
 LABEL org.opencontainers.image.authors="heman.1682@gmail.com"
 LABEL version="0.1"
