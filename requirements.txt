@@ -1,4 +1,4 @@
-Django==4.1.6
+Django==4.1.7
 djangorestframework==3.14.0
 django-cors-headers==3.13.0
 django-filter==22.1
@@ -8,5 +8,5 @@ channels-redis==4.0.0
 Pillow==9.3.0
 uWSGI>=2.0.19.1,<2.1
 celery==5.2.7
-redis==4.5
+redis==4.5.1
 django-treebeard==4.6.1
